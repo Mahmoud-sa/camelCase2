@@ -11,3 +11,9 @@ install
 5-excel files to read data 
 
 
+
+to run project 
+
+    camelCase  --> src -->  test  -->java  -->regression  --> AppTest  
+
+
