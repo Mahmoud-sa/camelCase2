@@ -12,8 +12,8 @@
 
 
 
-##to run project 
+## to run project 
 
-    camelCase  --> src -->  test  -->java  -->regression  --> AppTest  
+  ###    camelCase  --> src -->  test  -->java  -->regression  --> AppTest  
 
 
