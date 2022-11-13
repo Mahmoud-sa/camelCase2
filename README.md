@@ -1,7 +1,7 @@
 # camelCase2
 
 
-##install 
+## install 
 
 1- Eclipse 
 2-install selenuim dependency from maven repository
