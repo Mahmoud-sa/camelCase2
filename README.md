@@ -1,7 +1,7 @@
 # camelCase2
 
 
-install 
+##install 
 
 1- Eclipse 
 2-install selenuim dependency from maven repository
@@ -12,7 +12,7 @@ install
 
 
 
-to run project 
+##to run project 
 
     camelCase  --> src -->  test  -->java  -->regression  --> AppTest  
 
