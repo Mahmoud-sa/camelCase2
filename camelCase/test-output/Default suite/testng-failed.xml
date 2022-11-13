@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="regression.AppTest">
+        <methods>
+          <include name="open_browser"/>
+          <include name="test_login_missing_password"/>
+          <include name="updateCity"/>
+          <include name="closedriver"/>
+          <include name="add_new_city" invocation-numbers="1 2 4 5"/>
+          <include name="leave_right_blank_add_country"/>
+          <include name="test_login_missing_Email"/>
+          <include name="delete"/>
+          <include name="test_login" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- regression.AppTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
