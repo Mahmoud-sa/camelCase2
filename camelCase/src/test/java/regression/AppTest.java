@@ -94,10 +94,6 @@ public class AppTest {
 		email_Input.clear();
 		password_Input.clear();
 		BaseClass.get_web_driver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		// put write data static
-		email_Input.sendKeys("automator@camelcasetech.com");
-		password_Input.sendKeys("987654321");
-		login_button.click();
 
 	}
 
@@ -130,8 +126,6 @@ public class AppTest {
 			System.out.println("chang country");
 			country.selectByIndex(i);
 		}
-		// country.selectByVisibleText("yemen");
-		// country.selectByVisibleText("Somalia");
 
 		WebElement save_Btn = BaseClass.get_web_driver().findElement(
 				By.xpath("//*[@id=\"root\"]/div/div[2]/div/main/div/div/div/div/div/form/footer/div/div[1]/button"));
